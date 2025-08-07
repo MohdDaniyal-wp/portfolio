@@ -1,0 +1,226 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Daniyal | WordPress & UI/UX Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --navy: #1f2937;
+      --blue: #3b82f6;
+      --light: #cbd5e1;
+      --glow: 0 0 10px #3b82f6;
+    }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--light);
+  line-height: 1.6;
+}
+header {
+  background: var(--navy);
+  padding: 2rem;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+header p {
+  font-size: 1.2rem;
+  color: var(--blue);
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.intro img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid var(--blue);
+  object-fit: cover ;
+  object-position: center top;
+}
+.section-title {
+  font-size: 1.8rem;
+  margin: 3rem 0 1rem;
+  border-left: 4px solid var(--blue);
+  padding-left: 1rem;
+}
+.projects, .skills, .education {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.card {
+  background: var(--navy);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: var(--glow);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.card h3 {
+  margin: 1rem 0 0.5rem;
+  color: var(--blue);
+}
+.card p {
+  font-size: 0.9rem;
+}
+.skills img {
+  width: 40px;
+  margin-bottom: 0.5rem;
+}
+footer {
+  background: var(--navy);
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+a.button {
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--blue);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: var(--glow);
+  transition: background 0.3s;
+}
+a {
+    text-decoration: none;
+    color: #3b82f6;
+}
+
+
+a.button:hover {
+  background: #2563eb;
+}
+@media (max-width: 600px) {
+  .intro {
+    padding: 1rem;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mohammad Daniyal</h1>
+    <p>WordPress Developer & UI/UX Designer</p>
+  </header>  <div class="container">
+    <section class="intro">
+      <img src="img/mypfp.jpeg" alt="Your Photo">
+      <p>Hi, I’m Daniyal, a passionate WordPress Developer and UI/UX Designer with over 2 years of experience. I love designing and developing fast, responsive websites using Figma, WordPress, HTML, and CSS. I can do simple SEO by Yoast SEO and also work with Intermediate concepts of PHP.</p>
+    </section><h2 class="section-title">Education</h2>
+<section class="education">
+  <div class="card">
+    <h3>Matriculation</h3>
+    <p>Hillcrest School – A1 Grade, 85% Marks</p>
+  </div>
+  <div class="card">
+    <h3>Intermediate</h3>
+    <p>In Process result yet to be announced</p>
+  </div>
+</section>
+
+<h2 class="section-title">WordPress Projects</h2>
+<section class="projects">
+  <div class="card">
+    <img src="img/Untitled desig3n.png" alt="SMM Panel">
+    <h3>Marketing Panel Website</h3>
+    <p>A fully responsive and custom-designed WordPress Marketing panel. <a href="https://marketingkingsllc.com/">MarketingLLC</a></p>
+  </div>
+  <div class="card">
+    <img src="img/Untitled desig2n.png" alt="Restaurant Website">
+    <h3>Restaurant Website</h3>
+    <p>Designed & developed a beautiful restaurant site using WordPress. <a href="https://zamzamrestaurantpk.com/">ZAMZAM Restaurant</a></p>
+  </div>
+    <div class="card">
+    <img src="img/Untitled design.png" alt="Restaurant Website">
+    <h3>SMM Panel Website</h3>
+    <p>A fully responsive and custom-designed WordPress SMM panel. <a href="https://groompanel.com/">Groom Panel</a></p>
+  </div>
+</section>
+
+<h2 class="section-title">UI/UX Design Projects</h2>
+<section class="projects">
+  <div class="card">
+    <img src="img/InsightNest.png" alt="UI Project 1">
+    <h3>Dashboard UI</h3>
+    <p>Created a modern dashboard UI in Figma for a client project.</p>
+  </div>
+  <div class="card">
+    <img src="img/ui2.png" alt="UI Project 2">
+    <h3>Food Delivery App</h3>
+    <p>Designed UX flow and UI for a food delivery app prototype.</p>
+  </div>
+  
+</section>
+
+<h2 class="section-title">Skills</h2>
+<section class="skills">
+  <div class="card" style="text-align: center;">
+    <img src="img/Wordpress_Blue_logo.png" alt="WordPress">
+    <h3>WordPress</h3>
+  </div>
+  <div class="card" style="text-align: center;">
+    <img src="img/Figma-logo.png" alt="Figma">
+    <h3>Figma</h3>
+  </div>
+  <div class="card" style="text-align: center;">
+    <img src="img/html.png" alt="HTML">
+    <h3>HTML</h3>
+  </div>
+  <div class="card" style="text-align: center;">
+    <img src="img/CSS3_logo.png" alt="CSS">
+    <h3>CSS</h3>
+  </div>
+  <div class="card" style="text-align: center;">
+    <img src="img/js.png" alt="JS">
+    <h3>JS</h3>
+  </div>
+  <div class="card" style="text-align: center;">
+    <img src="img/icon-256x256.png" alt="SEO">
+    <h3>YOAST SEO</h3>
+  </div>
+</section>
+
+<h2 class="section-title">Contact</h2>
+<section class="intro">
+  <p>Want to work together? Let's connect!</p>
+  <br>
+<p>Email: <a href="mailto:muhammaddaniyalll84@gmail.com">muhammaddaniyalll84@gmail.com</a></p>
+    <p>Phone: <a href="tel:+923321316548">+92 332 1316548</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/muhammad-daniyal-32044b273/" target="_blank">https://www.linkedin.com/in/muhammad-daniyal-32044b273/</a></p>
+<br>
+  <a href="#" class="button">Send Message</a>
+
+</section> 
+
+  </div>  <footer>
+    &copy; 2025 Mohammad Daniyal. All rights reserved.
+  </footer>
+</body>
+</html>
